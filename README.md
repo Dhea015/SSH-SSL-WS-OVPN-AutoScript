@@ -16,3 +16,6 @@ Notes:
 2. Dflate is - ON
 3. IPTables is - ON
 4. Auto Reboot is - ON
+
+Big Thanks to:
+senowahyu62
