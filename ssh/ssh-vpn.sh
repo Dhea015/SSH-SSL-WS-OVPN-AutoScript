@@ -34,12 +34,12 @@ source /etc/os-release
 ver=$VERSION_ID
 
 #detail nama perusahaan
-country=ID
-state=Indonesia
-locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
+country=PH
+state=NCR
+locality=Manila
+organization=mashirovpn
+organizationalunit=mashirovpn
+commonname=mashirovpn
 email=akbarssh21@gmail.com
 
 # simple password minimal
@@ -325,9 +325,6 @@ systemctl restart stunnel5
 /etc/init.d/stunnel5 restart
 /etc/init.d/stunnel5 status
 /etc/init.d/stunnel5 restart
-
-#OpenVPN
-wget https://${akbarvpn}/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
 apt -y install fail2ban
