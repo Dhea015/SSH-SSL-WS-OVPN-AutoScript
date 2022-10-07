@@ -8,8 +8,7 @@ This Script is Good For:
 
 1. SSH + OVPN
 2. SSHWS + SSLWS
-3. VMESS & VLESS
-4. L2TP & PPTP
+
 
 Notes:
 1. Fail2Ban is - ON
